@@ -1,0 +1,11 @@
+channels :
+  - defaults
+  - conda-forge
+  - bioconda
+  - anaconda
+
+dependencies  :
+  - libopenblas=0.3.10
+  - r-data.table=1.12.2
+  - r-tidyverse=1.2.1 
+  - bioconductor-deseq2=1.26.0 

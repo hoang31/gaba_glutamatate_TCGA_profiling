@@ -1,0 +1,19 @@
+{
+    "__default__":
+    {
+        "job-name": "SM.{rule}",
+        "cpus-per-task": "4",
+        "mem-per-cpu": "4000",
+        "time": "0-00:30:00",
+        "mail-user": "hoang.dong.nguyen@usherbrooke.ca",
+        "mail-type": "FAIL"
+    },
+
+    "normalize_expression_count":
+    {
+        "cpus-per-task": "16",
+        "time": "0-2:00:00",
+    },
+
+
+}

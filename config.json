@@ -1,0 +1,47 @@
+
+{
+    "path":
+    {
+        "TCGA" : "data/databases/TCGA",
+        "CGGA1" : "data/databases/CGGA1",
+        "CGGA2" : "data/databases/CGGA2",
+        "IGAP" : "data/databases/IGAP",
+        "expression_data" : "data/expression_data",
+        "clinical_data" : "data/clinical_data",
+        "others" : "data/others",
+
+
+        "stringdb_protein_protein" : "data/interaction_data/stringdb_protein_protein",
+        "stringdb_protein_information" : "data/interaction_data/stringdb_protein_information",
+        "rnainter_rna_rna" : "data/interaction_data/rnainter_rna_rna",
+        "rnainter_rna_protein" : "data/interaction_data/rnainter_rna_protein",
+        "rnainter_rna_protein_filtered" : "data/interaction_data/rnainter_rna_protein_filtered",
+        "rnainter_rna_compound" : "data/interaction_data/rnainter_rna_compound",
+        "information_edge" : "data/interaction_data/information_edge.csv",
+        "information_node" : "data/interaction_data/information_node.csv"
+
+
+    },
+
+    "download":
+    {
+        "TCGA_expression": "",
+        "TCGA_clinical": "",
+        "CGGA1_expression": "http://www.cgga.org.cn/download?file=download/20191128/CGGA.mRNAseq_693.RSEM-genes.20191128.txt.zip&type=mRNAseq_693&time=20191128",
+        "CGGA1_clinical": "http://www.cgga.org.cn/download?file=download/20191128/CGGA.mRNAseq_693_clinical.20191128.txt.zip&type=mRNAseq_693_clinical&time=20191128",
+        "CGGA2_expression": "http://www.cgga.org.cn/download?file=download/20191128/CGGA.mRNAseq_325.RSEM-genes.20191128.txt.zip&type=mRNAseq_325&time=20191128",
+        "CGGA2_clinical": "http://www.cgga.org.cn/download?file=download/20191128/CGGA.mRNAseq_325_clinical.20191128.txt.zip&type=mRNAseq_325_clinical&time=20191128",
+        "IGAP_expression": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107559/suppl/GSE107559%5Fivygap%5Ffpkm%5Ftable%2Ecsv%2Egz",
+        "IGAP_clinical": "https://ivygap.swedish.org/files/File/IvyGAPClinicalData_v201806.xls",
+        "TCGA_immune_composition" : "http://timer.cistrome.org/infiltration_estimation_for_tcga.csv.gz",
+        "stringdb_protein_protein" : "https://stringdb-static.org/download/protein.physical.links.full.v11.0/9606.protein.physical.links.full.v11.0.txt.gz",
+        "stringdb_protein_information" : "https://stringdb-static.org/download/protein.info.v11.0/9606.protein.info.v11.0.txt.gz",
+        "rnainter_rna_rna" : "https://www.rna-society.org/rnainter/download/RNA-RNA.zip",
+        "rnainter_rna_protein" : "https://www.rna-society.org/rnainter/download/RNA-Protein.zip",
+        "rnainter_rna_compound" : "https://www.rna-society.org/rnainter/download/RNA-Compound.zip",
+        "immune_response_genes": "http://golr-aux.geneontology.io/solr/select?defType=edismax&qt=standard&indent=on&wt=csv&rows=100000&start=0&fl=bioentity,bioentity_label&facet=true&facet.mincount=1&facet.sort=count&json.nl=arrarr&facet.limit=25&hl=true&hl.simple.pre=%3Cem%20class=%22hilite%22%3E&hl.snippets=1000&csv.encapsulator=&csv.separator=%09&csv.header=false&csv.mv.separator=%7C&fq=document_category:%22bioentity%22&fq=taxon_subset_closure_label:%22Homo%20sapiens%22&facet.field=source&facet.field=taxon_subset_closure_label&facet.field=type&facet.field=panther_family_label&facet.field=annotation_class_list_label&facet.field=regulates_closure_label&q=+GO:0002376&qf=bioentity%5E2&qf=bioentity_label_searchable%5E2&qf=bioentity_name_searchable%5E1&qf=bioentity_internal_id%5E1&qf=synonym_searchable%5E1&qf=isa_partof_closure_label_searchable%5E1&qf=regulates_closure%5E1&qf=regulates_closure_label_searchable%5E1&qf=panther_family_searchable%5E1&qf=panther_family_label_searchable%5E1&qf=taxon_label_searchable%5E1"
+
+
+
+    }
+}

@@ -1,0 +1,16 @@
+channels :
+  - defaults
+  - anaconda
+  - conda-forge
+  - bjrn
+  
+dependencies :
+  - pandas=1.2.3
+  - numpy=1.19.2
+  - scipy=1.6.1
+  - networkx=2.5
+  - matplotlib=3.3.4
+  - plotly=4.14.3
+  - python-kaleido=0.2.1
+  - multiprocess=0.70.11
+  - pandarallel=1.4.8
